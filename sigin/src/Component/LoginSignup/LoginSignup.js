@@ -10,12 +10,12 @@ function LoginSignup() {
                 <div className='underline'></div>
             </div>
             <div className='inputs'>
-                {action === "Login" ? <div></div> : <div className='input'><input type='text' placeholder="User Nmae" />
+                {action === "Login" ? <div></div> : <div className='input'><input type='email' placeholder="EmailId" />
                 </div>}
           
                 <div className='input'>
 
-                    <input type='email' placeholder="Email Id" />
+                    <input type='text' placeholder="User Name" />
                 </div>
                 <div className='input'>
                     <input type='password' placeholder="Enter Password" />
